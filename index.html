@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Binary Search Guessing Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1> Guessing Game</h1>
+        <p>Guess the secret number between 0 and 100000000000</p>
+        
+        <label for="guess">Enter your guess:</label>
+        <input type="number" id="guess" min="0" max="100000000000">
+        <button id="submitGuess">Submit Guess</button>
+        
+        <div id="feedback"></div>
+        <div id="range">Range: 0 - 100000000000</div>
+    </div>
+
+    <script src="game.js"></script>
+</body>
+</html>
